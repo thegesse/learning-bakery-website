@@ -60,18 +60,37 @@ header{
     font-size: 16px;
     font-weight: 400;
 }
-.TopProduit h1{
+.TopProduit {
+
+    justify-content: center;
     text-align: center;
+
+}
+
+.TopProduit h1 {
     font-size: 24px;
     font-weight: 600;
 }
 
 .TopProduit .produit1{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    position: relative;
+    display: inline-block;
 }
 
-.TopProduit .produit1 img {
+.produit1 #background-img {
     align-self: center;
+    position: relative;
+    height: 76.5vw;
+    width: 91.6vw;
+    border-radius: 8px;
+}
+
+.TopProduit .produit1 #bread-img {
+    position: absolute;
+    height: 60vw;
+    width: auto;
+    top: -15%;
+    left: 50%; /*keep the percentage in mind */
+    transform: translateX(-50%);
 }
