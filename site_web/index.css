@@ -1,33 +1,33 @@
 body {
     margin: 0;
 }
-.logo {
-    float: left;
-    margin-top: 12px;
-    margin-left: 20px;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.95vw 2vw;
+    
 }
+
 
 .logo img{
-    width: 35px;
-    height: 35px;
+    width: 20vw;
+    height: auto;
 
 }
 
-aside{
-    float: right;
-    margin-left: 20px;
-    margin-top: 12px;
-}
 
 .bar img{
-    width: 20px;
-    height: 12px;
+    width: 5.09vw;
+    height: 3.42vw;
+
 }
 
 .frontpage img{
     position:relative;
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin-top: auto;
     
 }
 
@@ -35,14 +35,14 @@ aside{
     border:1px solid #000000;
     background-color: #933C24;
     border-radius: 8px;
-    height: 30px;
-    width: 114px;
+    height: 7.63vw;
+    width: 29.01vw;
     font-size: medium;
     font-weight: 600px;
     color: white;
     position: absolute;
-    top: 200px;
-    left: 5px;
+    top: 65.27vw;
+    left: 5.34vw;
 }
 .frontpage p{
     color:  #E9BD8C;
