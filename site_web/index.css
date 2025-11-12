@@ -47,16 +47,16 @@ header{
 .frontpage p{
     color:  #E9BD8C;
     position: absolute;
-    top: 130px;
-    left: 21px;
+    top: 47vw;
+    left: 5.1vw;
     font-size: 10px;
     font-weight: 600;
 }
 .frontpage h2{
     color: white;
     position: absolute;
-    top: 145px;
-    left: 21px;
+    top: 50vw;
+    left: 5.1vw;
     font-size: 16px;
     font-weight: 400;
 }
@@ -90,7 +90,269 @@ header{
     position: absolute;
     height: 60vw;
     width: auto;
-    top: -15%;
+    top: -10%;
     left: 50%; /*keep the percentage in mind */
     transform: translateX(-50%);
+}
+
+.ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50vw;
+    left: 9vw;
+}
+
+.ranger2 h3{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.ranger2 h2{
+    position: absolute;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    left: 60vw;
+    top: -50%;
+
+}
+
+.ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 60vw;
+    left: 9vw;
+}
+
+.ranger3 h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.ranger3 button {
+    border:1px solid #000000;
+    background-color: #933C24;
+    border-radius: 4px;
+    height: 44px;
+    width: 80px;
+    font-size: medium;
+    font-weight: 600px;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 53vw;
+}
+
+
+.produit2 #background-img {
+    align-self: center;
+    position: relative;
+    height: 76.5vw;
+    width: 91.6vw;
+    border-radius: 8px;
+}
+
+.TopProduit .produit2 #patisserie-img {
+    position: absolute;
+    height: 40vw;
+    width: auto;
+    top: 185vw;
+    left: 50%; /*keep the percentage in mind */
+    transform: translateX(-50%);
+}
+
+.produit2 .ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 230vw;
+    left: 15vw;
+}
+
+.produit2 .ranger2 h3{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.produit2 .ranger2 h2{
+    position: absolute;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    left: 60vw;
+    top: -50%;
+
+}
+
+.produit2 .ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 240vw;
+    left: 15vw;
+}
+
+.produit2 .ranger3 h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.produit2 .ranger3 button {
+    border:1px solid #000000;
+    background-color: #933C24;
+    border-radius: 4px;
+    height: 44px;
+    width: 80px;
+    font-size: medium;
+    font-weight: 600px;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 53vw;
+}
+
+.produit3 #background-img {
+    align-self: center;
+    position: relative;
+    height: 76.5vw;
+    width: 91.6vw;
+    border-radius: 8px;
+}
+
+.produit3 #baguette-img {
+    position: absolute;
+    height: 40vw;
+    width: auto;
+    top: 254vw;
+    rotate: -22.97deg;
+    left: 50%; /*keep the percentage in mind */
+    transform: translateX(-50%);
+}
+
+.produit3 .ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 310vw;
+    left: 16vw;
+}
+
+.produit3 .ranger2 h3{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.produit3 .ranger2 h2{
+    position: absolute;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    left: 60vw;
+    top: -50%;
+
+}
+
+.produit3 .ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 320vw;
+    left: 15vw;
+}
+
+.produit3 .ranger3 h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.produit3 .ranger3 button {
+    border:1px solid #000000;
+    background-color: #933C24;
+    border-radius: 4px;
+    height: 44px;
+    width: 80px;
+    font-size: medium;
+    font-weight: 600px;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 53vw;
+}
+
+.produit4 #background-img {
+    align-self: center;
+    position: relative;
+    height: 76.5vw;
+    width: 91.6vw;
+    border-radius: 8px;
+}
+
+.produit4 #baguette-img {
+    position: absolute;
+    height: 40vw;
+    width: auto;
+    top: 245vw;
+    rotate: -22.97deg;
+    left: 60%; /*keep the percentage in mind */
+    transform: translateX(-50%);
+}
+
+.produit4 .ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 310vw;
+    left: 16vw;
+}
+
+.produit4 .ranger2 h3{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.produit4 .ranger2 h2{
+    position: absolute;
+    color: white;
+    font-weight: 1;
+    font-size: 30px;
+    left: 60vw;
+    top: -50%;
+
+}
+
+.produit4 .ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 320vw;
+    left: 15vw;
+}
+
+.produit4 .ranger3 h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.produit4 .ranger3 button {
+    border:1px solid #000000;
+    background-color: #933C24;
+    border-radius: 4px;
+    height: 44px;
+    width: 80px;
+    font-size: medium;
+    font-weight: 600px;
+    color: white;
+    position: absolute;
+    top: 2vw;
+    left: 53vw;
 }
