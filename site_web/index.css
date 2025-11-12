@@ -457,13 +457,17 @@ footer #logo2 {
     margin-top: -5vw;
 }
 
-
-
-footer .socials h3 {
+footer .socials h2 {
     position: relative;
     color: #E9BD8C;
     margin-top: -10vw;
     width: 146px;
     height: 17px;
     text-align: center;
+}
+
+footer .propos h2 {
+    color: #e9bd8c;
+    font-size: 36px;
+    font-weight: 700;
 }
