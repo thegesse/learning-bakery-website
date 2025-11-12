@@ -78,12 +78,13 @@ header{
     display: inline-block;
 }
 
-.produit1 #background-img {
+#background-img {
     align-self: center;
     position: relative;
     height: 76.5vw;
     width: 91.6vw;
     border-radius: 8px;
+    margin-bottom: 2.545vw;
 }
 
 .TopProduit .produit1 #bread-img {
@@ -147,15 +148,6 @@ header{
     left: 53vw;
 }
 
-
-.produit2 #background-img {
-    align-self: center;
-    position: relative;
-    height: 76.5vw;
-    width: 91.6vw;
-    border-radius: 8px;
-}
-
 .TopProduit .produit2 #patisserie-img {
     position: absolute;
     height: 40vw;
@@ -173,56 +165,12 @@ header{
     left: 15vw;
 }
 
-.produit2 .ranger2 h3{
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-
-}
-.produit2 .ranger2 h2{
-    position: absolute;
-    color: white;
-    font-weight: 1;
-    font-size: 30px;
-    left: 60vw;
-    top: -50%;
-
-}
-
 .produit2 .ranger3 {
     display: flex;
     flex-direction: row;
     position: absolute;
     top: 240vw;
     left: 15vw;
-}
-
-.produit2 .ranger3 h3 {
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.produit2 .ranger3 button {
-    border:1px solid #000000;
-    background-color: #933C24;
-    border-radius: 4px;
-    height: 44px;
-    width: 80px;
-    font-size: medium;
-    font-weight: 600px;
-    color: white;
-    position: absolute;
-    top: 2vw;
-    left: 53vw;
-}
-
-.produit3 #background-img {
-    align-self: center;
-    position: relative;
-    height: 76.5vw;
-    width: 91.6vw;
-    border-radius: 8px;
 }
 
 .produit3 #baguette-img {
@@ -243,22 +191,6 @@ header{
     left: 16vw;
 }
 
-.produit3 .ranger2 h3{
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-
-}
-.produit3 .ranger2 h2{
-    position: absolute;
-    color: white;
-    font-weight: 1;
-    font-size: 30px;
-    left: 60vw;
-    top: -50%;
-
-}
-
 .produit3 .ranger3 {
     display: flex;
     flex-direction: row;
@@ -267,41 +199,12 @@ header{
     left: 15vw;
 }
 
-.produit3 .ranger3 h3 {
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.produit3 .ranger3 button {
-    border:1px solid #000000;
-    background-color: #933C24;
-    border-radius: 4px;
-    height: 44px;
-    width: 80px;
-    font-size: medium;
-    font-weight: 600px;
-    color: white;
-    position: absolute;
-    top: 2vw;
-    left: 53vw;
-}
-
-.produit4 #background-img {
-    align-self: center;
-    position: relative;
-    height: 76.5vw;
-    width: 91.6vw;
-    border-radius: 8px;
-}
-
-.produit4 #baguette-img {
+.produit4 #miche-img {
     position: absolute;
     height: 40vw;
     width: auto;
-    top: 245vw;
-    rotate: -22.97deg;
-    left: 60%; /*keep the percentage in mind */
+    top: 350vw;
+    left: 50%; /*keep the percentage in mind */
     transform: translateX(-50%);
 }
 
@@ -309,50 +212,124 @@ header{
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 310vw;
-    left: 16vw;
-}
-
-.produit4 .ranger2 h3{
-    color: white;
-    font-weight: 600;
-    font-size: 16px;
-
-}
-.produit4 .ranger2 h2{
-    position: absolute;
-    color: white;
-    font-weight: 1;
-    font-size: 30px;
-    left: 60vw;
-    top: -50%;
-
+    top: 395vw;
+    left: 11vw;
 }
 
 .produit4 .ranger3 {
     display: flex;
     flex-direction: row;
     position: absolute;
-    top: 320vw;
-    left: 15vw;
+    top: 405vw;
+    left: 10vw;
 }
 
-.produit4 .ranger3 h3 {
-    color: white;
+.produit5 #gateau-img {
+    position: absolute;
+    height: 40vw;
+    width: auto;
+    top: 430vw;
+    left: 50%; /*keep the percentage in mind */
+    transform: translateX(-50%);
+}
+
+.produit5 .ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 475vw;
+    left: 11vw;
+}
+
+.produit5 .ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 485vw;
+    left: 10vw;
+}
+
+.produit6 #miche2-img {
+    position: absolute;
+    height: 40vw;
+    width: auto;
+    top: 505vw;
+    left: 50%; /*keep the percentage in mind */
+    transform: translateX(-50%);
+}
+
+.produit6 .ranger2 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 550vw;
+    left: 11vw;
+}
+
+.produit6 .ranger3 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 560vw;
+    left: 10vw;
+}
+
+.reduc {
+    background-image: url(images/background_reduc.png);
+    background-position: -100% center;
+    background-size: cover;
+    overflow: hidden;
+    height: 90vw;
+    width: 100%;
+}
+
+.reduc h2 {
+    position: absolute;
+    text-align: center;
+    top: 590vw;
+    left: 10px;
+    width: 374px;
+    color: #933C24;
+    font-size: 24px;
     font-weight: 500;
-    font-size: 16px;
 }
 
-.produit4 .ranger3 button {
+.reduc p{
+    position: absolute;
+    text-align: center;
+    top: 620vw;
+    left: 49px;
+    width: 295px;
+    color: #5D5D5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reduc button{
     border:1px solid #000000;
     background-color: #933C24;
     border-radius: 4px;
-    height: 44px;
-    width: 80px;
+    height: 58px;
+    width: 177px;
     font-size: medium;
     font-weight: 600px;
     color: white;
     position: absolute;
-    top: 2vw;
-    left: 53vw;
+    top: 650vw;
+    left: 99px;
 }
+
+.decouvrir .images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      /* Center images horizontally */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.decouvrir .images img {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
