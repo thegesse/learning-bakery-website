@@ -9,13 +9,10 @@ header{
     
 }
 
-
 .logo img{
     width: 20vw;
     height: auto;
-
 }
-
 
 .bar img{
     width: 5.09vw;
@@ -38,25 +35,29 @@ header{
     height: 7.63vw;
     width: 29.01vw;
     font-size: medium;
-    font-weight: 600px;
+    font-weight: 600;
     color: white;
     position: absolute;
     top: 65.27vw;
     left: 5.34vw;
 }
+.frontpage .douce {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 135px;
+    left: 8%;
+}
 .frontpage p{
     color:  #E9BD8C;
-    position: absolute;
-    top: 47vw;
-    left: 5.1vw;
     font-size: 10px;
     font-weight: 600;
+    margin-bottom: 0;
 }
 .frontpage h2{
     color: white;
-    position: absolute;
-    top: 50vw;
-    left: 5.1vw;
+
+
     font-size: 16px;
     font-weight: 400;
 }
@@ -67,7 +68,8 @@ header{
 
 }
 
-.TopProduit h1 {
+h1 {
+    text-align: center;
     font-size: 24px;
     font-weight: 600;
 }
@@ -78,16 +80,21 @@ header{
     display: inline-block;
 }
 
-#background-img {
+.produit {
+    background-image: url(images/food/topproduitback.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
     align-self: center;
     position: relative;
     height: 76.5vw;
     width: 91.6vw;
     border-radius: 8px;
     margin-bottom: 2.545vw;
+    z-index: -1;
 }
 
-.TopProduit .produit1 #bread-img {
+.TopProduit .produit #bread-img {
     position: absolute;
     height: 60vw;
     width: auto;
@@ -141,7 +148,7 @@ header{
     height: 44px;
     width: 80px;
     font-size: medium;
-    font-weight: 600px;
+    font-weight: 600;
     color: white;
     position: absolute;
     top: 2vw;
@@ -274,6 +281,20 @@ header{
     left: 10vw;
 }
 
+@media (min-width: 1024px){
+    .TopProduit {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 2vw;
+    }
+    .TopProduit .produit{
+        width: 30vw;
+        height: 33vw;
+    }
+
+
+}
+
 .reduc {
     background-image: url(images/background_reduc.png);
     background-position: -100% center;
@@ -311,7 +332,7 @@ header{
     height: 58px;
     width: 177px;
     font-size: medium;
-    font-weight: 600px;
+    font-weight: 600;
     color: white;
     position: absolute;
     top: 650vw;
@@ -327,20 +348,26 @@ header{
 .decouvrir h3{
     text-align: center;
     color: #000000;
-    size: 24px;
+    font-size: 24px;
     font-weight: 600;
 }
 
 .choix p{
     margin-left: 5vw;
     color: #5D5D5D;
-    size: 16px;
+    font-size: 16px;
     font-weight: 600;
     margin-top: -3vw;
 }
 
 .line {
     margin-top: -5vw;
+
+}
+.line hr {
+    width: 95%;
+    color: #D9D9D9;
+    size: 2;
 }
 .decouvrir .images{
     display: flex;
@@ -355,6 +382,23 @@ header{
     width: 298px;
     border-radius: 8px;
     margin-top: 5vw;
+}
+
+@media (min-width: 1400px) {
+    .decouvrir {
+        display: flex;
+        flex-direction: column;
+    }
+    .decouvrir .images {
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 360px;
+        height: 350px;
+        margin-left: 35%;
+        margin-bottom: 10vw;
+        column-gap: 20%;
+    }
 }
 
 .apropos{
@@ -390,10 +434,10 @@ header{
     height: 58px;
     width: 136px;
     font-size: medium;
-    font-weight: 600px;
+    font-weight: 600;
     color: white;
     margin-left: 30%;
-    top: 66.5%;
+    top: 1203vw; /* mettre en vw*/
 
 
 }
@@ -465,7 +509,29 @@ footer .socials h2 {
     height: 17px;
     text-align: center;
 }
-
+footer .logos .fa-brands{
+    color: #E9BD8C;
+    width: 42vw;
+    height: 38vw;
+    margin-left: 10vw;
+}
+.fa-facebook{
+    color: #E9BD8C;
+}
+.fa-pinterest{
+    color: #E9BD8C;
+}
+.fa-whatsapp{
+    color: #E9BD8C;
+}
+.fa-instagram{
+    color: #E9BD8C;
+}
+footer hr {
+    width: 90%;
+    color: #E9BD8C;
+    size: 2;
+}
 footer .propos {
     display: flex;
     flex-direction: column;

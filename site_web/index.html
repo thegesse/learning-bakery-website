@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -18,16 +22,14 @@
     <article class="frontpage">
         <img src="images/background_home.png" alt="rien">
         <button>Commander</button>
-        <div>
+        <div class="douce">
             <p>Café Délicieux</p>
             <h2>Douceur & <br>Saveur</h2>
         </div>
     </article>
-
+    <h1>Nos Tops Produits</h1>
     <article class="TopProduit">
-        <h1>Nos Tops Produits</h1>
-        <section class="produit1">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
+        <section class="produit">
             <img id="bread-img" src="images/food/paincomplet.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
@@ -39,9 +41,9 @@
 
             </div>
         </section>
-        <section class="produit2">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
-            <img id="patisserie-img"src="images/food/patisserie.png" alt="paincomplet">
+        <section class="produit">
+
+            <img id="patisserie-img" src="images/food/patisserie.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
                 <h2>ⓘ</h2>
@@ -52,22 +54,22 @@
 
             </div>
         </section>
-        <section class="produit3">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
-            <img id="baguette-img"src="images/food/Baguette.png" alt="paincomplet">
+        <section class="produit">
+
+            <img id="baguette-img" src="images/food/Baguette.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
                 <h2>ⓘ</h2>
             </div>
-            <div class="ranger3">
+            <div class="ranger">
                 <h3>Baguette de<br>campagne</h3>
                 <button>Ajouter</button>
 
             </div>
         </section>
-        <section class="produit4">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
-            <img id="miche-img"src="images/food/Miche.png" alt="paincomplet">
+        <section class="produit">
+            
+            <img id="miche-img" src="images/food/Miche.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
                 <h2>ⓘ</h2>
@@ -78,9 +80,9 @@
 
             </div>
         </section>
-                <section class="produit5">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
-            <img id="gateau-img"src="images/food/Gateau.png" alt="paincomplet">
+                <section class="produit">
+            
+            <img id="gateau-img" src="images/food/Gateau.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
                 <h2>ⓘ</h2>
@@ -91,9 +93,9 @@
 
             </div>
         </section>
-        <section class="produit6">
-            <img id="background-img" src="images/food/topproduitback.png" alt="rien">
-            <img id="miche2-img"src="images/food/Michelle.png" alt="paincomplet">
+        <section class="produit">
+
+            <img id="miche2-img" src="images/food/Michelle.png" alt="paincomplet">
             <div class="ranger2">
                 <h3>40€ </h3>
                 <h2>ⓘ</h2>
@@ -117,9 +119,10 @@
             <p>Muffins</p>
             <p>Croissant</p>
             <p>Pains</p>
+            <p>Tartes</p>
         </div>
         <div class="line">
-            <hr width="95%" color="#D9D9D9" size="2">
+            <hr />
         </div>
         <div class="images">
             <img src="images/dcouvrire/muffin.png" alt="">
@@ -142,23 +145,22 @@
             <img src="images/food/pate.png" alt="plat de pates">
             <div class="rang1">
                 <span>Pâte feuilletée</span>
-                <span>8e</span>
+                <span>8€</span>
             </div>
-        </di>
-
         </div>
+
         <div class="donuts">
             <img src="images/food/Donut.png" alt="plat de donuts">
             <div class="rang1">
                 <span>Donuts</span>
-                <span>8e</span>
+                <span>8€</span>
             </div>
         </div>
         <div class="brownie">
             <img src="images/food/Brownie.png" alt="plat de brownie">
             <div class="rang1">
                 <span>Brownies</span>
-                <span>8e</span>
+                <span>8€</span>
             </div>
         </div>
     </section>
@@ -168,6 +170,14 @@
         <section class="socials">
             <h2>Suivez-nous</h2>
         </section>
+        <section class="icones">
+            <i class="fa-brands fa-facebook fa-2xl"></i>
+            <i class="fa-brands fa-pinterest fa-2xl"></i>
+            <i class="fa-brands fa-whatsapp fa-2xl"></i>
+            <i class="fa-brands fa-instagram fa-2xl"></i>
+
+        </section>
+        <hr> />
         <section class="propos">
             <h2>A propos</h2>
             <p>02 38 00 00 00</p>
