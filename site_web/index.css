@@ -15,7 +15,7 @@ header{
 }
 
 .off-screen-menu{
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 50vh;
     width: 100vh;
     max-width: 450px;
@@ -52,9 +52,9 @@ nav {
 }
 .ham-menu span {
     height: 5px;
-    width: 100%;
+    width: 75%;
     background-color: black;
-    border-radius: 25px;
+    border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,7 +69,6 @@ nav {
 }
 
 .ham-menu.active span:nth-child(1){
-    color: white;
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
     z-index: 10000;
@@ -78,14 +77,13 @@ nav {
     opacity: 0;
 }
 .ham-menu.active span:nth-child(3){
-    color: white;
     top: 50%;
     transform: translate(-50%, 50%) rotate(-45deg);
 }
 .off-screen-menu p {
-    font-size: 24px;
+    font-size: 28px;
     text-align: right;
-    color: black;
+    color: white;
 }
 
 .frontpage img{
@@ -113,7 +111,7 @@ nav {
     
 }
 button:active {
-  background-color: #63210e; /* Darker blue on click */
+    background-color: #63210e;
 }
 .frontpage .douce {
     position: absolute;
@@ -132,6 +130,7 @@ button:active {
     color: white;
     font-size: 5vw;
     font-weight: 400;
+    text-align: left;
 
 }
 .TopProduit {
@@ -156,9 +155,7 @@ button:active {
         width: 20vw;
         height: auto;
     }
-    h1{ /*texte Nos top produits*/
-        margin-top: 50%;
-    }
+
     .frontpage button {
         margin-top: -34%;
         font-size: 3vw;
@@ -172,14 +169,14 @@ button:active {
     .off-screen-menu,
     nav,
     .ham-menu span{
-        display: none; /* Hides the entire burger menu on PC screens */
+        display: none;
     }
     .off-screen-menu {
         color: black;
-        display: flex; /* Makes it horizontal */
+        display: flex;
         flex-direction: row;
-        position: static; /* Remove absolute positioning for desktop */
-        background-color: transparent; /* Adjust as needed */
+        position: static;
+        background-color: transparent;
         z-index: 2;
         font-size: 22px;
         margin-right: 48%;
@@ -187,7 +184,7 @@ button:active {
     }
     .off-screen-menu p {
         font-family: 'Poppins';
-        color: black;
+        color: white;
         margin: 0 15px;
     }
     .off-screen-menu .Acceuil {
@@ -239,13 +236,13 @@ h1 {
 .ranger2 h3{
     color: white;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
 }
 .ranger2 h2{
     position: absolute;
     color: white;
     font-weight: 1;
-    font-size: 30px;
+    font-size: 34px;
     left: 60vw;
     top: -50%;
 }
@@ -261,7 +258,7 @@ h1 {
 .ranger3 h3 {
     color: white;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .ranger3 button {
@@ -385,7 +382,7 @@ h1 {
     height: 40vw;
     width: auto;
     top: 515vw;
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -406,8 +403,8 @@ h1 {
 }
 
 @media (min-width: 1024px) {
-    h1 {
-        margin-top: 25%;
+    h1 { /* texte Nos top produits*/
+        margin-top: 40%;
     }
     .TopProduit {
         display: grid;
@@ -419,44 +416,44 @@ h1 {
     }
 
     .produit {
-        height: 21.41vw; /* Converted from 411px */
-        width: 25vw; /* Converted from 360px */
+        height: 21.41vw;
+        width: 25vw;
         margin-bottom: 0;
         align-items: center;
     }
 
     .produit img {
-        height: 13.02vw; /* Converted from 250px */
-        top: -1.04vw; /* Converted from -20px */
+        height: 13.02vw;
+        top: -1.04vw;
     }
 
     .produit #bread-img {
-        height: 13.02vw !important; /* Converted from 250px */
-        top: -1.04vw !important; /* Converted from -20px */
+        height: 13.02vw !important;
+        top: -1.04vw !important;
     }
 
     .produit .ranger2 {
-        top: 12.5vw; /* Converted from 240px */
-        left: 6vw; /* Converted from 20px */
+        top: 12.5vw;
+        left: 6vw;
     }
 
     .produit .ranger3 {
-        top: 14.58vw; /* Converted from 280px */
-        left: 5vw; /* Converted from 20px */
+        top: 14.58vw;
+        left: 5vw;
     }
 
     .ranger2 h2 {
-        left: 10.42vw; /* Converted from 200px */
-        top: -1vw; /* Converted from -30px */
+        left: 10.42vw;
+        top: -1vw;
         font-size: 1.25vw;
         
     }
 
     .ranger3 button {
-        top: 0.52vw; /* Converted from 10px */
-        left: 9.38vw; /* Converted from 180px */
-        width: 6vw; /* Converted from 70px */
-        height: 2.5vw; /* Converted from 38px */
+        top: 0.52vw;
+        left: 9.38vw;
+        width: 6vw;
+        height: 2.5vw;
         margin-bottom: -5%;
     }
 }
@@ -536,7 +533,7 @@ h1 {
     margin-left: 5vw;
     overflow: scroll;
     justify-content: space-between;
-    gap: 5.5%;
+    gap: 8%;
 
 }
 
@@ -564,7 +561,6 @@ h1 {
 .line hr {
     width: 90%;
     color: #D9D9D9;
-    size: 2;
 }
 .decouvrir .images{
     display: flex;
@@ -593,13 +589,20 @@ h1 {
         width: 50vh;
         height: 50vh;
         margin-bottom: -4vw;
+        transition: transform 0.3s ease;
+    }
+    .img-over{
+        transition: transform 0.3s ease;
+    }
+    .img-over:hover{
+        transform: scale(1.1);
     }
     .decouvrir .choix {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        justify-content: space-between;
-        gap: 2vw;
+        gap: 2rem;
 
     }
     .decouvrir .choix p {
@@ -653,13 +656,17 @@ h1 {
     top: 1203vw;
 }
 
-@media (min-width: 1025px){
-    .apropos{
+@media (min-width: 1025px) {
+    .apropos {
+        display: grid;
+        grid-template-rows: auto auto auto;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         height: 43vw;
+        position: relative;
     }
+
     .apropos h2 {
         margin-top: 5%;
         font-size: 7vh;
@@ -669,16 +676,18 @@ h1 {
         margin-top: 0;
         font-size: 5vh;
     }
+
     .apropos button {
         position: absolute;
-        top: 240vw;
-        left: 20%;
-        transform: translateX(-50%);
-        width: 15vw;
-        height: 6vw;
-        font-size: 1.5vw;
+        top: 60vh;
+        left: 15%;
+        width: 12vw;
+        height: 5vw;
+        font-size: 1.2vw;
+        transition: all 0.3s ease;
     }
 }
+
 
 .plaisire {
     display: flex;
@@ -707,10 +716,10 @@ h1 {
     margin-bottom: 8vw;
 }
 
-.plaisire p {
+.plaisire span {
     font-family: 'Inter';
     color: #000000;
-    font-size: 3.7vw;
+    font-size: 5vw;
     font-weight: 600;
 }
 
@@ -751,6 +760,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
 }
 
@@ -792,7 +802,7 @@ footer .logos .fa-brands{
 footer hr {
     width: 90%;
     color: #E9BD8C;
-    size: 2;
+
 }
 footer .row2 {
     display: flex;
