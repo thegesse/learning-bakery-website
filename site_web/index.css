@@ -1,7 +1,7 @@
 body {
     margin: 0;
 }
-header{
+header{/* define the headband for header*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +13,7 @@ header{
     width: 20vw;
     height: auto;
 }
-
+/*burger menu start*/
 .off-screen-menu{
     background-color: rgba(0, 0, 0, 0.5);
     height: 50vh;
@@ -85,7 +85,7 @@ nav {
     text-align: right;
     color: white;
 }
-
+/*burger menu end*/
 .frontpage img{
     position:relative;
     width: 100vw;
@@ -139,7 +139,7 @@ button:active {
     text-align: center;
 
 }
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {/*frontpage for pc*/
     .frontpage img {
         position: absolute;
         top: 0;
@@ -202,7 +202,7 @@ h1 {
     font-family: 'Sansita Swashed', cursive;
 }
 
-.produit {
+.produit { /*general background for all products*/
     background-image: url(images/food/topproduitback.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -216,7 +216,7 @@ h1 {
     z-index: -1;
 }
 
-.TopProduit .produit #bread-img {
+.TopProduit .produit #bread-img { /*define size for each image*/
     position: absolute;
     height: 60vw;
     width: auto;
@@ -233,7 +233,7 @@ h1 {
     left: 9vw;
 }
 
-.ranger2 h3{
+.ranger2 h3{ /*2nd row; item name + info logo*/
     color: white;
     font-weight: 600;
     font-size: 20px;
@@ -247,7 +247,7 @@ h1 {
     top: -50%;
 }
 
-.ranger3 {
+.ranger3 { /*3rd row, price + button*/
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -402,7 +402,7 @@ h1 {
     left: 10vw;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { /*for pc */
     h1 { /* texte Nos top produits*/
         margin-top: 40%;
     }
@@ -458,7 +458,7 @@ h1 {
     }
 }
 
-.reduc {
+.reduc { /*start reductions info page*/
     background-image: url(images/background_reduc.png);
     background-position: center;
     background-size: cover;
@@ -526,7 +526,7 @@ h1 {
     }
 }
 
-.decouvrir .choix {
+.decouvrir .choix { /*defines the position of each of the names of the products*/
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -537,7 +537,7 @@ h1 {
 
 }
 
-.decouvrir h3{
+.decouvrir h3{ /*texte decouvrire*/
     font-family: 'Sansita Swashed', cursive;
     text-align: center;
     color: #000000;
@@ -545,7 +545,7 @@ h1 {
     font-weight: 600;
 }
 
-.choix p{
+.choix p{ /*price + names*/
     font-family: 'Poppins';
     color: #5D5D5D;
     font-size: 3.7vw;
@@ -558,7 +558,7 @@ h1 {
     margin-top: -5vw;
 
 }
-.line hr {
+.line hr { /*seperations*/
     width: 90%;
     color: #D9D9D9;
 }
@@ -614,7 +614,7 @@ h1 {
         margin-top: -2vw;
     }
 }
-.apropos{
+.apropos{ /*block A propos*/
     background-image: url(images/Aproposback.png);
     background-position: -105% center;
     background-size: cover;
@@ -698,7 +698,7 @@ h1 {
 
 }
 
-.plaisire img {
+.plaisire img { /*puts all the images in column*/
     width: 70vw;
     height: 70vw;
     border-radius: 8px;
@@ -732,7 +732,7 @@ h2 {
 
 @media (min-width:1025px){
     .plaisire {
-        display: grid;
+        display: grid; /*arranges all the images in a grid for visibility on pc*/
         grid-template-columns: repeat(3, 1fr);
     }
     .plaisire article {
@@ -781,7 +781,7 @@ footer .socials h2 {
     text-align: center;
     font-family: 'Inter';
 }
-footer .logos .fa-brands{
+footer .logos .fa-brands{ /*edits the brand logoes found on font awesom*/
     color: #E9BD8C;
     width: 42vw;
     height: 38vw;
@@ -804,7 +804,7 @@ footer hr {
     color: #E9BD8C;
 
 }
-footer .row2 {
+footer .row2 { /*groups up the a propos article and explorer article*/
     display: flex;
     flex-direction: column;
     margin-bottom: 2vw;
@@ -837,7 +837,7 @@ footer .actu {
     text-align: center;
 }
 
-.nouvdelice{
+.nouvdelice{ 
     display: flex;
     flex-direction: row;
 }
