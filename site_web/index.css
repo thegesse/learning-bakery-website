@@ -82,6 +82,11 @@ nav {
     top: 50%;
     transform: translate(-50%, 50%) rotate(-45deg);
 }
+.off-screen-menu p {
+    font-size: 24px;
+    text-align: right;
+    color: black;
+}
 
 .frontpage img{
     position:relative;
@@ -108,7 +113,7 @@ nav {
     
 }
 button:active {
-  background-color: #0056b3; /* Darker blue on click */
+  background-color: #63210e; /* Darker blue on click */
 }
 .frontpage .douce {
     position: absolute;
@@ -166,12 +171,30 @@ button:active {
     }
     .off-screen-menu,
     nav,
-    .ham-menu {
+    .ham-menu span{
         display: none; /* Hides the entire burger menu on PC screens */
+    }
+    .off-screen-menu {
+        color: black;
+        display: flex; /* Makes it horizontal */
+        flex-direction: row;
+        position: static; /* Remove absolute positioning for desktop */
+        background-color: transparent; /* Adjust as needed */
+        z-index: 2;
+        font-size: 22px;
+        margin-right: 48%;
+        margin-top: -8%;
+    }
+    .off-screen-menu p {
+        font-family: 'Poppins';
+        color: black;
+        margin: 0 15px;
+    }
+    .off-screen-menu .Acceuil {
+        color: #E9BD8C;
     }
     .frontpage p {
         margin-top: 25%;
-
     }
 }
 
@@ -511,6 +534,10 @@ h1 {
     flex-direction: row;
     text-align: center;
     margin-left: 5vw;
+    overflow: scroll;
+    justify-content: space-between;
+    gap: 5.5%;
+
 }
 
 .decouvrir h3{
@@ -523,12 +550,12 @@ h1 {
 
 .choix p{
     font-family: 'Poppins';
-    margin-left: 5vw;
     color: #5D5D5D;
     font-size: 3.7vw;
     font-weight: 600;
-    margin-top: -3vw;
+    margin-top: -1vw;
 }
+
 
 .line {
     margin-top: -5vw;
@@ -568,12 +595,16 @@ h1 {
         margin-bottom: -4vw;
     }
     .decouvrir .choix {
-        margin-left: 50vh;
+        display: flex;
+        flex-direction: row;
         text-align: center;
-        width: 100%;
+        justify-content: space-between;
+        gap: 2vw;
+
     }
     .decouvrir .choix p {
-        font-size: 3vh;
+        font-size: 2vw;
+        margin-top: 0;
     }
 
     .line {
